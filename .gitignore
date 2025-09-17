@@ -1,0 +1,62 @@
+# Compiled binaries
+*/*/megaphone
+*/*/phonebook
+*/*/account
+*/*/zombies
+*/*/zombie
+*/*/brain
+*/*/human
+*/*/sed
+*/*/harl
+*/*/fixed
+*/*/bsp
+*/*/claptrap
+*/*/scavtrap
+*/*/fragtrap
+*/*/diamondtrap
+*/*/animals
+*/*/materia
+
+# Object files
+*.o
+*.obj
+
+# Executables (catch-all for any missed binaries)
+**/ex**/[!M]*
+!**/ex**/*.cpp
+!**/ex**/*.hpp
+!**/ex**/*.h
+!**/ex**/*.txt
+!**/ex**/*.md
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing files (if any)
+test_*
+*_test
+*.test
